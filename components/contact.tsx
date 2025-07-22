@@ -18,7 +18,7 @@ export function Contact() {
                 </p>
               </div>
 
-              <div style={{display: "flex", alignItems: "center", flexDirection: "row", justifyContent: "space-evenly",}} className="space-y-4">
+              <div style={{display: "flex", alignItems: "center", flexDirection: "row", justifyContent: "space-evenly", flexWrap:"wrap"}} className="space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Mail className="h-6 w-6 text-primary" />
