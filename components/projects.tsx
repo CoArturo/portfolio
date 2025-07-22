@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { ExternalLink, Github, Eye, ChevronLeft, ChevronRight } from "lucide-react"
+import { ExternalLink, Eye, ChevronLeft, ChevronRight } from "lucide-react"
 
 interface Project {
   title: string
