@@ -13,7 +13,7 @@ export function Contact() {
               <div>
                 <h3 className="text-2xl font-semibold mb-6">{"Let's work together"}</h3>
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. Whether you have a question or just
+                  I&#39;m always interested in new opportunities and exciting projects. Whether you have a question or just
                   want to say hi, feel free to reach out!
                 </p>
               </div>
