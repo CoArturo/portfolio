@@ -73,6 +73,25 @@ const projects: Project[] = [
       "Creating a flexible content management system",
     ],
   },
+  {
+    title: "Memory Caset Photo Gallery",
+    description: "Photo Gallery",
+    longDescription:
+      "Designed and developed the frontend of a photo gallery for my personal photograph project. I love the masonry layout, so i build my own gallery.",
+    image: "/projects/memorycaset-photogallery/memorycaset-img1.png",
+    gallery: [
+      "/projects/memorycaset-photogallery/memorycaset-img1.png",
+    ],
+    technologies: ["React", "CSS"],
+    liveUrl: "https://www.memorycaset.com",
+    githubUrl: "#",
+    features: [
+      "Masonry layout.",
+    ],
+    challenges: [
+      "I did just for fun, i love taking photos",
+    ],
+  }
 ]
 
 function ProjectGallery({ images, title }: { images: string[]; title: string }) {
