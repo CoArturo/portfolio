@@ -81,6 +81,7 @@ const projects: Project[] = [
     image: "/projects/memorycaset-photogallery/memorycaset-img1.png",
     gallery: [
       "/projects/memorycaset-photogallery/memorycaset-img1.png",
+      "/projects/memorycaset-photogallery/memorycaset-img2.png",
     ],
     technologies: ["React", "CSS"],
     liveUrl: "https://www.memorycaset.com",
@@ -112,7 +113,7 @@ function ProjectGallery({ images, title }: { images: string[]; title: string }) 
         <img
           src={images[currentImage] || "/placeholder.svg"}
           alt={`${title} - Image ${currentImage + 1}`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
         {images.length > 1 && (
           <>
