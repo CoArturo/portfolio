@@ -48,32 +48,6 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Nutri Hair",
-    description: "Inventory & Order Management System.",
-    longDescription:
-      "Designed and developed the frontend of a custom inventory and order management system tailored for beauty industry operations. Built responsive interfaces in React, focusing on usability, clarity, and efficient product navigation for salon managers and beauty consultants. Integrated Clerk for secure user authentication and role-based access, streamlining account creation and improving data protection.",
-    image: "/projects/nutrihair/nutrihair-img1.png",
-    gallery: [
-      "/projects/nutrihair/nutrihair-img1.png",
-      "/projects/nutrihair/nutrihair-img2.png",
-    ],
-    technologies: ["React", "Framer Motion", "Tailwind CSS", "Vercel", "MDX"],
-    liveUrl: "https://www.nutrihair.us",
-    githubUrl: "#",
-    features: [
-      "Designed and developed the frontend of a custom inventory and order management system tailored for beauty industry operations.",
-      "Built responsive interfaces in React, focusing on usability, clarity, and efficient product navigation for salon managers and beauty consultants.",
-      "Integrated Clerk for secure user authentication and role-based access, streamlining account creation and improving data protection.",
-      "Developed modules for real-time stock updates, order placement, and historical tracking, enabling faster and more accurate inventory decisions.",
-      "Implemented dynamic dashboards and filtering tools, allowing users to quickly visualize order status, low-stock alerts, and sales summaries.",
-    ],
-    challenges: [
-      "Optimizing animation performance",
-      "Implementing SEO best practices",
-      "Creating a flexible content management system",
-    ],
-  },
-  {
     title: "Memory Caset Photo Gallery",
     description: "Photo Gallery",
     longDescription:
